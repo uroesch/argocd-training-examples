@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: quay.io/acend/example-web-go
+        image: quay.io/acend/example-web-python
         command: ["sleep", "10"]
       restartPolicy: Never
   backoffLimit: 0
